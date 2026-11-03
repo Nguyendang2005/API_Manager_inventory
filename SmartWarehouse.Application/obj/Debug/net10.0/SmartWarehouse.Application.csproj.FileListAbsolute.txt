@@ -1,0 +1,15 @@
+D:\DU_AN_CA_Nhan\SmartWarehouse\SmartWarehouse.Application\bin\Debug\net10.0\SmartWarehouse.Application.deps.json
+D:\DU_AN_CA_Nhan\SmartWarehouse\SmartWarehouse.Application\bin\Debug\net10.0\SmartWarehouse.Application.dll
+D:\DU_AN_CA_Nhan\SmartWarehouse\SmartWarehouse.Application\bin\Debug\net10.0\SmartWarehouse.Application.pdb
+D:\DU_AN_CA_Nhan\SmartWarehouse\SmartWarehouse.Application\bin\Debug\net10.0\SmartWarehouse.Domain.dll
+D:\DU_AN_CA_Nhan\SmartWarehouse\SmartWarehouse.Application\bin\Debug\net10.0\SmartWarehouse.Domain.pdb
+D:\DU_AN_CA_Nhan\SmartWarehouse\SmartWarehouse.Application\obj\Debug\net10.0\SmartWarehouse.Application.csproj.AssemblyReference.cache
+D:\DU_AN_CA_Nhan\SmartWarehouse\SmartWarehouse.Application\obj\Debug\net10.0\SmartWarehouse.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\DU_AN_CA_Nhan\SmartWarehouse\SmartWarehouse.Application\obj\Debug\net10.0\SmartWarehouse.Application.AssemblyInfoInputs.cache
+D:\DU_AN_CA_Nhan\SmartWarehouse\SmartWarehouse.Application\obj\Debug\net10.0\SmartWarehouse.Application.AssemblyInfo.cs
+D:\DU_AN_CA_Nhan\SmartWarehouse\SmartWarehouse.Application\obj\Debug\net10.0\SmartWarehouse.Application.csproj.CoreCompileInputs.cache
+D:\DU_AN_CA_Nhan\SmartWarehouse\SmartWarehouse.Application\obj\Debug\net10.0\SmartWar.856752CC.Up2Date
+D:\DU_AN_CA_Nhan\SmartWarehouse\SmartWarehouse.Application\obj\Debug\net10.0\SmartWarehouse.Application.dll
+D:\DU_AN_CA_Nhan\SmartWarehouse\SmartWarehouse.Application\obj\Debug\net10.0\refint\SmartWarehouse.Application.dll
+D:\DU_AN_CA_Nhan\SmartWarehouse\SmartWarehouse.Application\obj\Debug\net10.0\SmartWarehouse.Application.pdb
+D:\DU_AN_CA_Nhan\SmartWarehouse\SmartWarehouse.Application\obj\Debug\net10.0\ref\SmartWarehouse.Application.dll

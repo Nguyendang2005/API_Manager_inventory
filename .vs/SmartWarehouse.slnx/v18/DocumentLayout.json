@@ -1,0 +1,904 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.webapi\\wwwroot\\.gitkeep||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|solutionrelative:smartwarehouse.webapi\\wwwroot\\.gitkeep||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E10645F-7665-BC12-FC49-7205BF6BEBF9}|SmartWarehouse.UnitTests\\SmartWarehouse.UnitTests.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.unittests\\smartwarehouse.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1E10645F-7665-BC12-FC49-7205BF6BEBF9}|SmartWarehouse.UnitTests\\SmartWarehouse.UnitTests.csproj|solutionrelative:smartwarehouse.unittests\\smartwarehouse.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|solutionrelative:smartwarehouse.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\contracts\\services\\iinventoryissueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\contracts\\services\\iinventoryissueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{600E8233-513E-E1EE-37EE-20ADCB4605E8}|SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{600E8233-513E-E1EE-37EE-20ADCB4605E8}|SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj|solutionrelative:smartwarehouse.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|solutionrelative:smartwarehouse.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.webapi\\middlewares\\requestcorrelationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|solutionrelative:smartwarehouse.webapi\\middlewares\\requestcorrelationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.webapi\\middlewares\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|solutionrelative:smartwarehouse.webapi\\middlewares\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{600E8233-513E-E1EE-37EE-20ADCB4605E8}|SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{600E8233-513E-E1EE-37EE-20ADCB4605E8}|SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj|solutionrelative:smartwarehouse.infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{600E8233-513E-E1EE-37EE-20ADCB4605E8}|SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.infrastructure\\migrations\\20261030080527_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{600E8233-513E-E1EE-37EE-20ADCB4605E8}|SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj|solutionrelative:smartwarehouse.infrastructure\\migrations\\20261030080527_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B722F314-6E0A-C298-2E9C-3BC567ADF697}|SmartWarehouse.Domain\\SmartWarehouse.Domain.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.domain\\enums\\storagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B722F314-6E0A-C298-2E9C-3BC567ADF697}|SmartWarehouse.Domain\\SmartWarehouse.Domain.csproj|solutionrelative:smartwarehouse.domain\\enums\\storagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B722F314-6E0A-C298-2E9C-3BC567ADF697}|SmartWarehouse.Domain\\SmartWarehouse.Domain.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.domain\\enums\\receiptstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B722F314-6E0A-C298-2E9C-3BC567ADF697}|SmartWarehouse.Domain\\SmartWarehouse.Domain.csproj|solutionrelative:smartwarehouse.domain\\enums\\receiptstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B722F314-6E0A-C298-2E9C-3BC567ADF697}|SmartWarehouse.Domain\\SmartWarehouse.Domain.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.domain\\enums\\issuestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B722F314-6E0A-C298-2E9C-3BC567ADF697}|SmartWarehouse.Domain\\SmartWarehouse.Domain.csproj|solutionrelative:smartwarehouse.domain\\enums\\issuestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\common\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\common\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\common\\pageresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\common\\pageresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\dtos\\common\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\dtos\\common\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\dtos\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\dtos\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\dtos\\auth\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\dtos\\auth\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.webapi\\smartwarehouse.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|solutionrelative:smartwarehouse.webapi\\smartwarehouse.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|solutionrelative:smartwarehouse.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.webapi\\extensions\\swaggerconfigurationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|solutionrelative:smartwarehouse.webapi\\extensions\\swaggerconfigurationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.webapi\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|solutionrelative:smartwarehouse.webapi\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{600E8233-513E-E1EE-37EE-20ADCB4605E8}|SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{600E8233-513E-E1EE-37EE-20ADCB4605E8}|SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj|solutionrelative:smartwarehouse.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{600E8233-513E-E1EE-37EE-20ADCB4605E8}|SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.infrastructure\\data\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{600E8233-513E-E1EE-37EE-20ADCB4605E8}|SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj|solutionrelative:smartwarehouse.infrastructure\\data\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\contracts\\services\\iwarehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\contracts\\services\\iwarehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\dtos\\product\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\dtos\\product\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\dtos\\inventoryreceipt\\createinventoryreceiptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\dtos\\inventoryreceipt\\createinventoryreceiptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B722F314-6E0A-C298-2E9C-3BC567ADF697}|SmartWarehouse.Domain\\SmartWarehouse.Domain.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B722F314-6E0A-C298-2E9C-3BC567ADF697}|SmartWarehouse.Domain\\SmartWarehouse.Domain.csproj|solutionrelative:smartwarehouse.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B722F314-6E0A-C298-2E9C-3BC567ADF697}|SmartWarehouse.Domain\\SmartWarehouse.Domain.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B722F314-6E0A-C298-2E9C-3BC567ADF697}|SmartWarehouse.Domain\\SmartWarehouse.Domain.csproj|solutionrelative:smartwarehouse.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B722F314-6E0A-C298-2E9C-3BC567ADF697}|SmartWarehouse.Domain\\SmartWarehouse.Domain.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.domain\\entities\\inventoryissue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B722F314-6E0A-C298-2E9C-3BC567ADF697}|SmartWarehouse.Domain\\SmartWarehouse.Domain.csproj|solutionrelative:smartwarehouse.domain\\entities\\inventoryissue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.webapi\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|solutionrelative:smartwarehouse.webapi\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\dtos\\product\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\dtos\\product\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\dtos\\product\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\dtos\\product\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.webapi\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|solutionrelative:smartwarehouse.webapi\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|solutionrelative:smartwarehouse.webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.webapi\\controllers\\inventoryreceiptscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|solutionrelative:smartwarehouse.webapi\\controllers\\inventoryreceiptscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.webapi\\controllers\\inventoryissuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|solutionrelative:smartwarehouse.webapi\\controllers\\inventoryissuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{600E8233-513E-E1EE-37EE-20ADCB4605E8}|SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.infrastructure\\repositories\\warehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{600E8233-513E-E1EE-37EE-20ADCB4605E8}|SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj|solutionrelative:smartwarehouse.infrastructure\\repositories\\warehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.401\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\dtos\\supplier\\createsupplierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\dtos\\supplier\\createsupplierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\service\\warehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\service\\warehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{600E8233-513E-E1EE-37EE-20ADCB4605E8}|SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{600E8233-513E-E1EE-37EE-20ADCB4605E8}|SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj|solutionrelative:smartwarehouse.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\dtos\\warehouse\\updatewarehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\dtos\\warehouse\\updatewarehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\exceptions\\duplicatewarehousecodeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\exceptions\\duplicatewarehousecodeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\contracts\\persistence\\iwarehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\contracts\\persistence\\iwarehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.webapi\\smartwarehouse.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FB9CB605-0659-4613-2710-1EC1C38F8529}|SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj|solutionrelative:smartwarehouse.webapi\\smartwarehouse.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\dtos\\warehouse\\warehousequeryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\dtos\\warehouse\\warehousequeryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\dtos\\warehouse\\createwarehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\dtos\\warehouse\\createwarehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\dtos\\warehouse\\warehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\dtos\\warehouse\\warehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{600E8233-513E-E1EE-37EE-20ADCB4605E8}|SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.infrastructure\\smartwarehouse.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{600E8233-513E-E1EE-37EE-20ADCB4605E8}|SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj|solutionrelative:smartwarehouse.infrastructure\\smartwarehouse.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B722F314-6E0A-C298-2E9C-3BC567ADF697}|SmartWarehouse.Domain\\SmartWarehouse.Domain.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.domain\\smartwarehouse.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B722F314-6E0A-C298-2E9C-3BC567ADF697}|SmartWarehouse.Domain\\SmartWarehouse.Domain.csproj|solutionrelative:smartwarehouse.domain\\smartwarehouse.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nguye\\AppData\\Roaming\\Microsoft\\UserSecrets\\9137337c-4145-4c9c-b429-2d9f1fcca721\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|d:\\du_an_ca_nhan\\smartwarehouse\\smartwarehouse.application\\smartwarehouse.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7E2152AF-8B93-498F-717E-9D6825B390F9}|SmartWarehouse.Application\\SmartWarehouse.Application.csproj|solutionrelative:smartwarehouse.application\\smartwarehouse.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitkeep",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\wwwroot\\.gitkeep",
+              "RelativeDocumentMoniker": "SmartWarehouse.WebAPI\\wwwroot\\.gitkeep",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\wwwroot\\.gitkeep",
+              "RelativeToolTip": "SmartWarehouse.WebAPI\\wwwroot\\.gitkeep",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-01T11:35:48.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "SmartWarehouse.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T11:12:15.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20261030080527_InitialCreate.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Infrastructure\\Migrations\\20261030080527_InitialCreate.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Infrastructure\\Migrations\\20261030080527_InitialCreate.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Infrastructure\\Migrations\\20261030080527_InitialCreate.cs",
+              "RelativeToolTip": "SmartWarehouse.Infrastructure\\Migrations\\20261030080527_InitialCreate.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCcAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T11:12:12.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "SmartWarehouse.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T07:26:38.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RequestCorrelationMiddleware.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Middlewares\\RequestCorrelationMiddleware.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.WebAPI\\Middlewares\\RequestCorrelationMiddleware.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Middlewares\\RequestCorrelationMiddleware.cs",
+              "RelativeToolTip": "SmartWarehouse.WebAPI\\Middlewares\\RequestCorrelationMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T07:26:42.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.WebAPI\\Program.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Program.cs",
+              "RelativeToolTip": "SmartWarehouse.WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T13:27:04.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SmartWarehouse.UnitTests.csproj",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.UnitTests\\SmartWarehouse.UnitTests.csproj",
+              "RelativeDocumentMoniker": "SmartWarehouse.UnitTests\\SmartWarehouse.UnitTests.csproj",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.UnitTests\\SmartWarehouse.UnitTests.csproj",
+              "RelativeToolTip": "SmartWarehouse.UnitTests\\SmartWarehouse.UnitTests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-29T08:49:43.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IInventoryIssueService.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\Contracts\\Services\\IInventoryIssueService.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\Contracts\\Services\\IInventoryIssueService.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\Contracts\\Services\\IInventoryIssueService.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\Contracts\\Services\\IInventoryIssueService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T11:13:58.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SmartWarehouse.WebAPI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SmartWarehouse.WebAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-30T02:42:11.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "SmartWarehouse.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T05:29:35.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StorageType.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Domain\\Enums\\StorageType.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Domain\\Enums\\StorageType.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Domain\\Enums\\StorageType.cs",
+              "RelativeToolTip": "SmartWarehouse.Domain\\Enums\\StorageType.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T11:11:42.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReceiptStatus.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Domain\\Enums\\ReceiptStatus.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Domain\\Enums\\ReceiptStatus.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Domain\\Enums\\ReceiptStatus.cs",
+              "RelativeToolTip": "SmartWarehouse.Domain\\Enums\\ReceiptStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T11:11:40.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IssueStatus.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Domain\\Enums\\IssueStatus.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Domain\\Enums\\IssueStatus.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Domain\\Enums\\IssueStatus.cs",
+              "RelativeToolTip": "SmartWarehouse.Domain\\Enums\\IssueStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T11:11:37.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Common\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\DTOs\\Common\\PaginatedList.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Common\\PaginatedList.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\DTOs\\Common\\PaginatedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T11:11:28.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "SmartWarehouse.WebAPI\\appsettings.json",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\appsettings.json",
+              "RelativeToolTip": "SmartWarehouse.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-25T13:24:27.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SwaggerConfigurationExtensions.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Extensions\\SwaggerConfigurationExtensions.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.WebAPI\\Extensions\\SwaggerConfigurationExtensions.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Extensions\\SwaggerConfigurationExtensions.cs",
+              "RelativeToolTip": "SmartWarehouse.WebAPI\\Extensions\\SwaggerConfigurationExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T07:26:32.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthDto.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Auth\\AuthDto.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\DTOs\\Auth\\AuthDto.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Auth\\AuthDto.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\DTOs\\Auth\\AuthDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T07:05:54.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PageResult.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\Common\\PageResult.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\Common\\PageResult.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\Common\\PageResult.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\Common\\PageResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T01:33:37.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PaginationParams.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\Common\\PaginationParams.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\Common\\PaginationParams.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\Common\\PaginationParams.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\Common\\PaginationParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T01:30:02.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Common\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\DTOs\\Common\\ApiResponse.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Common\\ApiResponse.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\DTOs\\Common\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T05:07:45.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SmartWarehouse.WebAPI.http",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.http",
+              "RelativeDocumentMoniker": "SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.http",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.http",
+              "RelativeToolTip": "SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-10-30T07:26:53.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.WebAPI\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "SmartWarehouse.WebAPI\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T07:26:32.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SmartWarehouse.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T12:03:55.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Infrastructure\\Data\\Configurations\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Infrastructure\\Data\\Configurations\\CategoryConfiguration.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Infrastructure\\Data\\Configurations\\CategoryConfiguration.cs",
+              "RelativeToolTip": "SmartWarehouse.Infrastructure\\Data\\Configurations\\CategoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T07:06:03.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IWarehouseService.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\Contracts\\Services\\IWarehouseService.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\Contracts\\Services\\IWarehouseService.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\Contracts\\Services\\IWarehouseService.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\Contracts\\Services\\IWarehouseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T09:45:11.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Product\\ProductDto.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\DTOs\\Product\\ProductDto.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Product\\ProductDto.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\DTOs\\Product\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T05:50:43.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreateInventoryReceiptDto.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\InventoryReceipt\\CreateInventoryReceiptDto.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\DTOs\\InventoryReceipt\\CreateInventoryReceiptDto.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\InventoryReceipt\\CreateInventoryReceiptDto.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\DTOs\\InventoryReceipt\\CreateInventoryReceiptDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T05:07:49.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Domain\\Entities\\Category.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "SmartWarehouse.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T02:05:43.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Domain\\Entities\\Product.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "SmartWarehouse.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T02:07:13.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "InventoryIssue.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Domain\\Entities\\InventoryIssue.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Domain\\Entities\\InventoryIssue.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Domain\\Entities\\InventoryIssue.cs",
+              "RelativeToolTip": "SmartWarehouse.Domain\\Entities\\InventoryIssue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T06:18:40.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Controllers\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.WebAPI\\Controllers\\BaseApiController.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Controllers\\BaseApiController.cs",
+              "RelativeToolTip": "SmartWarehouse.WebAPI\\Controllers\\BaseApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T05:50:03.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Product\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\DTOs\\Product\\CreateProductDto.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Product\\CreateProductDto.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\DTOs\\Product\\CreateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T05:50:40.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UpdateProductDto.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Product\\UpdateProductDto.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\DTOs\\Product\\UpdateProductDto.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Product\\UpdateProductDto.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\DTOs\\Product\\UpdateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T05:50:44.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SuppliersController.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Controllers\\SuppliersController.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.WebAPI\\Controllers\\SuppliersController.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Controllers\\SuppliersController.cs",
+              "RelativeToolTip": "SmartWarehouse.WebAPI\\Controllers\\SuppliersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T05:50:19.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.WebAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "SmartWarehouse.WebAPI\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T05:50:12.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "InventoryReceiptsController.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Controllers\\InventoryReceiptsController.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.WebAPI\\Controllers\\InventoryReceiptsController.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Controllers\\InventoryReceiptsController.cs",
+              "RelativeToolTip": "SmartWarehouse.WebAPI\\Controllers\\InventoryReceiptsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T05:50:10.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "InventoryIssuesController.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Controllers\\InventoryIssuesController.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.WebAPI\\Controllers\\InventoryIssuesController.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\Controllers\\InventoryIssuesController.cs",
+              "RelativeToolTip": "SmartWarehouse.WebAPI\\Controllers\\InventoryIssuesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T05:50:01.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Microsoft.NET.TargetFrameworkInference.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.401\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.401\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAHAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-10-30T05:13:26.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CreateSupplierDto.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Supplier\\CreateSupplierDto.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\DTOs\\Supplier\\CreateSupplierDto.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Supplier\\CreateSupplierDto.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\DTOs\\Supplier\\CreateSupplierDto.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T05:08:22.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "WarehouseRepository.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Infrastructure\\Repositories\\WarehouseRepository.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Infrastructure\\Repositories\\WarehouseRepository.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Infrastructure\\Repositories\\WarehouseRepository.cs",
+              "RelativeToolTip": "SmartWarehouse.Infrastructure\\Repositories\\WarehouseRepository.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowEwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T14:18:08.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "WarehouseService.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\Service\\WarehouseService.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\Service\\WarehouseService.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\Service\\WarehouseService.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\Service\\WarehouseService.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAuwKYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T16:08:09.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\DependencyInjection.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T04:20:44.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "SmartWarehouse.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T04:09:19.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UpdateWarehouseDto.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Warehouse\\UpdateWarehouseDto.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\DTOs\\Warehouse\\UpdateWarehouseDto.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Warehouse\\UpdateWarehouseDto.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\DTOs\\Warehouse\\UpdateWarehouseDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T11:35:19.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DuplicateWarehouseCodeException.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\Exceptions\\DuplicateWarehouseCodeException.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\Exceptions\\DuplicateWarehouseCodeException.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\Exceptions\\DuplicateWarehouseCodeException.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\Exceptions\\DuplicateWarehouseCodeException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T06:34:45.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IWarehouseRepository.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\Contracts\\Persistence\\IWarehouseRepository.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\Contracts\\Persistence\\IWarehouseRepository.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\Contracts\\Persistence\\IWarehouseRepository.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\Contracts\\Persistence\\IWarehouseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T09:37:16.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SmartWarehouse.WebAPI.csproj",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj",
+              "RelativeDocumentMoniker": "SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj",
+              "RelativeToolTip": "SmartWarehouse.WebAPI\\SmartWarehouse.WebAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-25T13:39:22.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "WarehouseQueryParams.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Warehouse\\WarehouseQueryParams.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\DTOs\\Warehouse\\WarehouseQueryParams.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Warehouse\\WarehouseQueryParams.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\DTOs\\Warehouse\\WarehouseQueryParams.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIAywBYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T02:08:43.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CreateWarehouseDto.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Warehouse\\CreateWarehouseDto.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\DTOs\\Warehouse\\CreateWarehouseDto.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Warehouse\\CreateWarehouseDto.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\DTOs\\Warehouse\\CreateWarehouseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T11:34:51.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "WarehouseDto.cs",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Warehouse\\WarehouseDto.cs",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\DTOs\\Warehouse\\WarehouseDto.cs",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\DTOs\\Warehouse\\WarehouseDto.cs",
+              "RelativeToolTip": "SmartWarehouse.Application\\DTOs\\Warehouse\\WarehouseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T11:35:46.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "SmartWarehouse.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj",
+              "RelativeToolTip": "SmartWarehouse.Infrastructure\\SmartWarehouse.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-25T12:53:24.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "SmartWarehouse.Domain.csproj",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Domain\\SmartWarehouse.Domain.csproj",
+              "RelativeDocumentMoniker": "SmartWarehouse.Domain\\SmartWarehouse.Domain.csproj",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Domain\\SmartWarehouse.Domain.csproj",
+              "RelativeToolTip": "SmartWarehouse.Domain\\SmartWarehouse.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-24T09:27:36.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\nguye\\AppData\\Roaming\\Microsoft\\UserSecrets\\9137337c-4145-4c9c-b429-2d9f1fcca721\\secrets.json",
+              "ToolTip": "C:\\Users\\nguye\\AppData\\Roaming\\Microsoft\\UserSecrets\\9137337c-4145-4c9c-b429-2d9f1fcca721\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-25T13:28:09.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "SmartWarehouse.Application.csproj",
+              "DocumentMoniker": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\SmartWarehouse.Application.csproj",
+              "RelativeDocumentMoniker": "SmartWarehouse.Application\\SmartWarehouse.Application.csproj",
+              "ToolTip": "D:\\DU_AN_CA_Nhan\\SmartWarehouse\\SmartWarehouse.Application\\SmartWarehouse.Application.csproj",
+              "RelativeToolTip": "SmartWarehouse.Application\\SmartWarehouse.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-24T09:36:48.761Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

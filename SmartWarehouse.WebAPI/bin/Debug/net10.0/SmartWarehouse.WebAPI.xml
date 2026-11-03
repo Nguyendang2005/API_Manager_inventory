@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SmartWarehouse.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:SmartWarehouse.WebAPI.Controllers.AuthController">
+            <summary>
+            API Xác thực và Cấp phát JWT Bearer Token — ASM-U06-01
+            </summary>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.AuthController.Login(SmartWarehouse.Application.DTOs.Auth.LoginDto)">
+            <summary>
+            Đăng nhập lấy Bearer Token (Tài khoản mẫu: manager/Manager123! hoặc staff/Staff123!)
+            POST /api/v1/auth/login
+            </summary>
+            <param name="dto">Thông tin đăng nhập</param>
+            <response code="200">Đăng nhập thành công, trả về JWT Token và Role.</response>
+            <response code="401">Thông tin đăng nhập không chính xác.</response>
+        </member>
+        <member name="T:SmartWarehouse.WebAPI.Controllers.BaseApiController">
+            <summary>
+            Controller cơ sở: cung cấp [ApiController] + route baseline.
+            Tất cả controller kế thừa để đảm bảo LSP và nhất quán HTTP behavior.
+            </summary>
+        </member>
+        <member name="T:SmartWarehouse.WebAPI.Controllers.InventoryIssuesController">
+            <summary>
+            API Quản lý xuất kho an toàn với phân quyền JWT Role-Based Policies — ASM-U05 &amp; ASM-U06
+            </summary>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.InventoryIssuesController.GetPaged(System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Lấy danh sách phiếu xuất kho có phân trang.
+            GET /api/v1/inventory-issues?pageIndex=1&amp;pageSize=10
+            </summary>
+            <param name="pageIndex">Số thứ tự trang (mặc định: 1)</param>
+            <param name="pageSize">Số bản ghi mỗi trang (mặc định: 10)</param>
+            <param name="ct">Cancellation token</param>
+            <response code="200">Danh sách phiếu xuất kho phân trang.</response>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.InventoryIssuesController.GetById(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Lấy chi tiết thông tin phiếu xuất kho theo ID.
+            GET /api/v1/inventory-issues/{id}
+            </summary>
+            <param name="id">Mã định danh phiếu xuất</param>
+            <param name="ct">Cancellation token</param>
+            <response code="200">Thông tin chi tiết phiếu xuất.</response>
+            <response code="404">Không tìm thấy phiếu xuất.</response>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.InventoryIssuesController.Create(SmartWarehouse.Application.DTOs.InventoryIssue.CreateInventoryIssueDto,System.Threading.CancellationToken)">
+            <summary>
+            Tạo phiếu xuất kho và trừ hàng tồn kho nguyên tử (Atomic Stock Deduction qua Unit of Work).
+            Quyền yêu cầu: WarehouseStaff hoặc WarehouseManager.
+            POST /api/v1/inventory-issues
+            </summary>
+            <param name="dto">Dữ liệu phiếu xuất</param>
+            <param name="ct">Cancellation token</param>
+            <response code="201">Tạo phiếu xuất thành công.</response>
+            <response code="400">Dữ liệu yêu cầu không hợp lệ.</response>
+            <response code="401">Chưa xác thực Bearer Token.</response>
+            <response code="403">Không có quyền thao tác.</response>
+            <response code="409">Không đủ tồn kho (InsufficientStockException).</response>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.InventoryIssuesController.Approve(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Duyệt phiếu xuất kho (Approve).
+            Quyền yêu cầu: CHỈ DÀNH CHO WarehouseManager.
+            PUT /api/v1/inventory-issues/{id}/approve
+            </summary>
+            <param name="id">Mã định danh phiếu xuất</param>
+            <param name="ct">Cancellation token</param>
+            <response code="204">Duyệt phiếu xuất thành công.</response>
+            <response code="401">Chưa xác thực Bearer Token.</response>
+            <response code="403">Không có quyền WarehouseManager (Forbidden).</response>
+            <response code="404">Không tìm thấy phiếu xuất hoặc trạng thái không hợp lệ.</response>
+        </member>
+        <member name="T:SmartWarehouse.WebAPI.Controllers.InventoryReceiptsController">
+            <summary>
+            API quản lý phiếu nhập kho (Master-Detail) — ASM-U04-01
+            </summary>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.InventoryReceiptsController.GetById(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Lấy thông tin chi tiết phiếu nhập kho bao gồm danh sách mặt hàng và sản phẩm (Eager Loading chống N+1).
+            GET /api/v1/inventoryreceipts/{id}
+            </summary>
+            <param name="id">Mã định danh phiếu nhập</param>
+            <param name="ct">Cancellation token</param>
+            <response code="200">Chi tiết phiếu nhập kèm danh sách hàng hóa.</response>
+            <response code="404">Không tìm thấy phiếu nhập.</response>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.InventoryReceiptsController.GetByWarehouse(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Lấy danh sách phiếu nhập kho theo kho.
+            GET /api/v1/inventoryreceipts?warehouseId=1
+            </summary>
+            <param name="warehouseId">Mã kho hàng</param>
+            <param name="ct">Cancellation token</param>
+            <response code="200">Danh sách các phiếu nhập của kho.</response>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.InventoryReceiptsController.GetMonthlySummary(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Báo cáo thống kê nhập kho hàng tháng theo kho (dùng LINQ projection với AsNoTracking).
+            GET /api/v1/inventoryreceipts/summary?warehouseId=1&amp;year=2026&amp;month=10
+            </summary>
+            <param name="warehouseId">Mã kho</param>
+            <param name="year">Năm</param>
+            <param name="month">Tháng</param>
+            <param name="ct">Cancellation token</param>
+            <response code="200">Báo cáo tổng hợp số lượng và chi phí nhập kho theo tháng.</response>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.InventoryReceiptsController.Create(SmartWarehouse.Application.DTOs.InventoryReceipt.CreateInventoryReceiptDto,System.Threading.CancellationToken)">
+            <summary>
+            Tạo phiếu nhập kho ở trạng thái Draft.
+            POST /api/v1/inventoryreceipts
+            </summary>
+            <param name="dto">Dữ liệu phiếu nhập</param>
+            <param name="ct">Cancellation token</param>
+            <response code="201">Tạo phiếu nhập thành công.</response>
+            <response code="400">Dữ liệu không hợp lệ.</response>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.InventoryReceiptsController.Confirm(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Xác nhận phiếu nhập kho và tự động cộng dồn tồn kho cho các sản phẩm.
+            POST /api/v1/inventoryreceipts/{id}/confirm
+            </summary>
+            <param name="id">Mã định danh phiếu nhập</param>
+            <param name="ct">Cancellation token</param>
+            <response code="204">Xác nhận thành công.</response>
+            <response code="404">Không tìm thấy phiếu hoặc phiếu không ở trạng thái Draft.</response>
+        </member>
+        <member name="T:SmartWarehouse.WebAPI.Controllers.ProductsController">
+            <summary>RESTful CRUD API cho Quản lý sản phẩm (Products)</summary>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.ProductsController.GetAll(System.Threading.CancellationToken)">
+            <summary>Lấy danh sách tất cả sản phẩm đang hoạt động</summary>
+            <response code="200">Danh sách sản phẩm.</response>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.ProductsController.GetById(System.Int32,System.Threading.CancellationToken)">
+            <summary>Lấy chi tiết sản phẩm theo ID</summary>
+            <param name="id">Mã sản phẩm</param>
+            <param name="ct">Cancellation token</param>
+            <response code="200">Chi tiết sản phẩm.</response>
+            <response code="404">Không tìm thấy sản phẩm.</response>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.ProductsController.Create(SmartWarehouse.Application.DTOs.Product.CreateProductDto,System.Threading.CancellationToken)">
+            <summary>Tạo mới sản phẩm</summary>
+            <param name="dto">Dữ liệu tạo sản phẩm</param>
+            <param name="ct">Cancellation token</param>
+            <response code="201">Tạo thành công sản phẩm.</response>
+            <response code="400">Dữ liệu không hợp lệ.</response>
+            <response code="409">Mã SKU bị trùng.</response>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.ProductsController.Update(System.Int32,SmartWarehouse.Application.DTOs.Product.UpdateProductDto,System.Threading.CancellationToken)">
+            <summary>Cập nhật thông tin sản phẩm</summary>
+            <param name="id">Mã sản phẩm</param>
+            <param name="dto">Thông tin cập nhật</param>
+            <param name="ct">Cancellation token</param>
+            <response code="204">Cập nhật thành công.</response>
+            <response code="404">Không tìm thấy sản phẩm.</response>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.ProductsController.Delete(System.Int32,System.Threading.CancellationToken)">
+            <summary>Xóa sản phẩm theo ID</summary>
+            <param name="id">Mã sản phẩm</param>
+            <param name="ct">Cancellation token</param>
+            <response code="204">Xóa thành công.</response>
+            <response code="404">Không tìm thấy sản phẩm.</response>
+        </member>
+        <member name="T:SmartWarehouse.WebAPI.Controllers.SuppliersController">
+            <summary>
+            RESTful CRUD API cho Quản lý nhà cung cấp (Suppliers) — ASM-U02-01
+            </summary>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.SuppliersController.GetAll(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Lấy danh sách nhà cung cấp hoặc lọc theo tên.
+            GET /api/v1/suppliers?search={name}
+            </summary>
+            <param name="search">Từ khóa tìm kiếm theo tên nhà cung cấp</param>
+            <param name="ct">Cancellation token</param>
+            <response code="200">Danh sách nhà cung cấp.</response>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.SuppliersController.GetById(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Lấy thông tin chi tiết nhà cung cấp theo ID.
+            GET /api/v1/suppliers/{id}
+            </summary>
+            <param name="id">Mã định danh nhà cung cấp (tối thiểu 1)</param>
+            <param name="ct">Cancellation token</param>
+            <response code="200">Thông tin chi tiết nhà cung cấp.</response>
+            <response code="404">Không tìm thấy nhà cung cấp.</response>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.SuppliersController.Create(SmartWarehouse.Application.DTOs.Supplier.CreateSupplierDto,System.Threading.CancellationToken)">
+            <summary>
+            Thêm mới nhà cung cấp với kiểm tra format mã số thuế, email, phone, supplier code.
+            POST /api/v1/suppliers
+            </summary>
+            <param name="dto">Dữ liệu tạo nhà cung cấp</param>
+            <param name="ct">Cancellation token</param>
+            <response code="201">Tạo thành công nhà cung cấp với Location header.</response>
+            <response code="400">Dữ liệu không hợp lệ.</response>
+            <response code="409">Mã nhà cung cấp đã tồn tại.</response>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.SuppliersController.Update(System.Int32,SmartWarehouse.Application.DTOs.Supplier.UpdateSupplierDto,System.Threading.CancellationToken)">
+            <summary>
+            Cập nhật thông tin nhà cung cấp theo ID.
+            PUT /api/v1/suppliers/{id}
+            </summary>
+            <param name="id">Mã định danh nhà cung cấp</param>
+            <param name="dto">Dữ liệu cập nhật</param>
+            <param name="ct">Cancellation token</param>
+            <response code="204">Cập nhật thành công (No Content).</response>
+            <response code="400">Dữ liệu không hợp lệ.</response>
+            <response code="404">Không tìm thấy nhà cung cấp.</response>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.SuppliersController.Delete(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Xóa nhà cung cấp theo ID.
+            DELETE /api/v1/suppliers/{id}
+            </summary>
+            <param name="id">Mã định danh nhà cung cấp</param>
+            <param name="ct">Cancellation token</param>
+            <response code="204">Xóa thành công (No Content).</response>
+            <response code="404">Không tìm thấy nhà cung cấp.</response>
+        </member>
+        <member name="T:SmartWarehouse.WebAPI.Controllers.WarehousesController">
+            <summary>
+            RESTful CRUD API cho Quản lý kho hàng — ASM-U01-01
+            </summary>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.WarehousesController.GetAll">
+            <summary>
+            Lấy danh sách tất cả các kho đang hoạt động.
+            GET /api/v1/warehouses
+            </summary>
+            <response code="200">Trả về danh sách các kho đang hoạt động.</response>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.WarehousesController.GetById(System.Int32)">
+            <summary>
+            Lấy chi tiết thông tin một kho theo ID.
+            GET /api/v1/warehouses/{id}
+            </summary>
+            <param name="id">Mã định danh kho</param>
+            <response code="200">Trả về thông tin chi tiết của kho.</response>
+            <response code="404">Không tìm thấy kho với ID chỉ định.</response>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.WarehousesController.Create(SmartWarehouse.Application.DTOs.Warehouse.CreateWarehouseDto)">
+            <summary>
+            Tạo mới một kho hàng với kiểm tra tính duy nhất của mã kho.
+            POST /api/v1/warehouses
+            </summary>
+            <param name="dto">Dữ liệu tạo kho mới</param>
+            <response code="201">Tạo mới kho thành công kèm header Location.</response>
+            <response code="400">Dữ liệu đầu vào không hợp lệ.</response>
+            <response code="409">Mã kho đã tồn tại (Conflict).</response>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.WarehousesController.Update(System.Int32,SmartWarehouse.Application.DTOs.Warehouse.UpdateWarehouseDto)">
+            <summary>
+            Cập nhật thông tin kho hàng theo ID.
+            PUT /api/v1/warehouses/{id}
+            </summary>
+            <param name="id">Mã định danh kho</param>
+            <param name="dto">Thông tin kho cần cập nhật</param>
+            <response code="204">Cập nhật thành công (No Content).</response>
+            <response code="400">Dữ liệu đầu vào không hợp lệ.</response>
+            <response code="404">Không tìm thấy kho cần cập nhật.</response>
+            <response code="409">Mã kho cập nhật trùng với kho khác (Conflict).</response>
+        </member>
+        <member name="M:SmartWarehouse.WebAPI.Controllers.WarehousesController.Delete(System.Int32)">
+            <summary>
+            Xóa kho hàng theo ID.
+            DELETE /api/v1/warehouses/{id}
+            </summary>
+            <param name="id">Mã định danh kho</param>
+            <response code="204">Xóa thành công (No Content).</response>
+            <response code="404">Không tìm thấy kho cần xóa.</response>
+        </member>
+        <member name="T:SmartWarehouse.WebAPI.Extensions.AuthorizeCheckOperationFilter">
+            <summary>
+            Operation filter: Chỉ yêu cầu bảo mật trên các endpoint có gắn [Authorize].
+            Các API còn lại (Warehouses, Suppliers, Products, Auth login...) là Public, KHÔNG bị khóa.
+            </summary>
+        </member>
+        <member name="T:SmartWarehouse.WebAPI.Middlewares.GlobalExceptionMiddleware">
+            <summary>
+            Middleware xử lý ngoại lệ toàn cục chuẩn RFC 7807 ProblemDetails và đính kèm X-Correlation-ID.
+            </summary>
+        </member>
+        <member name="T:SmartWarehouse.WebAPI.Middlewares.RequestCorrelationMiddleware">
+            <summary>
+            Middleware gán mã X-Correlation-ID cho mỗi request để hỗ trợ distributed tracing.
+            </summary>
+        </member>
+    </members>
+</doc>

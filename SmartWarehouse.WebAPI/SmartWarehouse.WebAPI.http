@@ -1,0 +1,6 @@
+@SmartWarehouse.WebAPI_HostAddress = http://localhost:5244
+
+GET {{SmartWarehouse.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
